@@ -1,60 +1,9 @@
 <!-- Game UI -->
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/buttons.css">
+<link rel="stylesheet" href="css/style.css">
 <html>
 <head>
-	<style>
-		body { margin:0; }
-		.nav {
-			overflow: hidden;
-			text-align: center;
-			background: #F4F4F4;
-		}
-		.nav li {
-			float: left;
-			padding: 5px;
-			width: 50px;
-			color: #666;
-			list-style: none;
-			border-left: 1px solid #F4F4F4;
-			cursor: pointer;
-		}
-		.nav li: hover, .selected {
-			background: #ECEBEB;
-			border-left: 1px solid #ECEBEB;
-		}
-		#float {
-			position: absolute;
-			border: 1px solid #EEE;
-			box-shadow: 0 0 5px #CCC;
-			background: white;
-			z-index: 600;
-		}
-		#sl {
-			position: absolute;
-			border: 1px solid #EEE;
-			box-shadow: 0 0 5px #CCC;
-			background: white;
-			z-index: 1000;
-		}
-		#container {
-			position: absolute;
-			display: flex;
-			width: 100%;
-		}
-		#left {
-			width: 30%;
-		}
-		#right {
-			width: 30%;
-		}
-		#operations {
-			flex: 1;
-			width: 40%;
-		}
-
-	</style>
-
 	<script type="text/javascript">
 		var tick_persec = 5;
 		var $ = function(x) { return document.getElementById(x); }
